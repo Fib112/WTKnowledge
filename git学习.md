@@ -79,7 +79,7 @@ git init可以将当前目录变为git仓库
 6. 本地提交
 
    ```
-   $ git push origin maste //可将本地master分支的最新修改推送至GitHub
+   $ git push origin master //可将本地master分支的最新修改推送至GitHub
    ```
 
 7. 删除远程库
