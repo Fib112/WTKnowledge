@@ -58,7 +58,7 @@
      	entry: "./src/main.js", //指定打包入口
      	output: {
      		filename: "bundle.js" // 指定打包文件名字
-     		path: "path.resolve(__dirname, "./dist")" //__dirname是当前配置文件所处的路径
+     		path: path.resolve(__dirname, "./dist") //__dirname是当前配置文件所处的路径
      	}
      }
      ```
